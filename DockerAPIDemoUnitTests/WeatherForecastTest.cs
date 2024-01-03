@@ -11,7 +11,7 @@ namespace DockerAPIDemoUnitTests
         {
             WeatherForecast w = new WeatherForecast();
             w.MyAppSetting1 = "1";
-            AssertionRequirement.Equals(w.MyAppSetting1, "1");
+            Assert.Equal(w.MyAppSetting1, "1");
         }
     }
 }

@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockerAPIDemo", "DockerAPIDemo\DockerAPIDemo.csproj", "{485F9A86-C480-4777-A3B7-9D0DFD22F8A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DockerAPIDemo", "DockerAPIDemo\DockerAPIDemo.csproj", "{485F9A86-C480-4777-A3B7-9D0DFD22F8A3}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{6A9C7EB4-ABE1-4087-B03B-B871997734EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockerAPIDemoUnitTests", "DockerAPIDemoUnitTests\DockerAPIDemoUnitTests.csproj", "{87ADFD7C-9DAB-45E1-B8CC-C4E406AFDE05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DockerAPIDemoUnitTests", "DockerAPIDemoUnitTests\DockerAPIDemoUnitTests.csproj", "{87ADFD7C-9DAB-45E1-B8CC-C4E406AFDE05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockerAPIDemoIntegrationTests", "DockerAPIDemoIntegrationTests\DockerAPIDemoIntegrationTests.csproj", "{04F07C69-651D-4B51-9E9E-DDCE7C36BF4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DockerAPIDemoIntegrationTests", "DockerAPIDemoIntegrationTests\DockerAPIDemoIntegrationTests.csproj", "{04F07C69-651D-4B51-9E9E-DDCE7C36BF4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

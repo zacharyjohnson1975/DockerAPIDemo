@@ -24,6 +24,15 @@ namespace DockerAPIDemo
             services.AddSwaggerGen();
 
             services.Configure<AppSettingsOptions>(Configuration.GetSection(AppSettingsOptions.AppSettings));
+
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(
+                    builder =>
+                    {
+                        builder.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
+                    });
+            });
         }
 
         public void Configure(IApplicationBuilder app)
