@@ -17,8 +17,6 @@ node_modules/
 
 # VS Code
 .vscode/
-*.dll
-*.pdb
 
 # Unit test reports
 TEST*.xml
