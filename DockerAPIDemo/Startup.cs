@@ -8,6 +8,7 @@ namespace DockerAPIDemo
 {
     public class Startup
     {
+        //test jackmu comment 2
         private readonly bool isProduction;
         public IConfiguration Configuration { get; }
 
