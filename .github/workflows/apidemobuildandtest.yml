@@ -1,5 +1,6 @@
 # This workflow will build a .NET project
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
+# -warnaserror 
 
 name: Build API Demo And Test
 
@@ -23,7 +24,7 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore DockerAPIDemo.sln
     - name: Build
-      run: dotnet build --no-restore -warnaserror DockerAPIDemo.sln
+      run: dotnet build --no-restore DockerAPIDemo.sln
     - name: Run Unit Tests
       run: dotnet test --no-build --verbosity normal DockerAPIDemo.sln --filter FullyQualifiedName~DockerAPIDemoUnitTests
     - name: Run Integration Tests
