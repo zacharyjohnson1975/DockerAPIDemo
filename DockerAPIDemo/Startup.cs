@@ -40,6 +40,7 @@ namespace DockerAPIDemo
             DotNetEnv.Env.Load();
             DotNetEnv.Env.TraversePath().Load();
 
+            //This is a test
             // Configure the HTTP request pipeline.
             if (!isProduction)
             {
