@@ -24,5 +24,7 @@ jobs:
       run: dotnet restore DockerAPIDemo.sln
     - name: Build
       run: dotnet build --no-restore DockerAPIDemo.sln
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
+    - name: Run Unit Tests
+      run: dotnet test --no-build --verbosity normal DockerAPIDemoUnitTests.csproj
+    - name: Run Integration Tests
+      run: dotnet test --no-build --verbosity normal DockerAPIDemoIntegrationTests.csproj
