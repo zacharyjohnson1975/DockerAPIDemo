@@ -25,6 +25,4 @@ jobs:
     - name: Build
       run: dotnet build --no-restore DockerAPIDemo.sln
     - name: Run Unit Tests
-      run: dotnet test --no-build --verbosity normal DockerAPIDemoUnitTests.csproj
-    - name: Run Integration Tests
-      run: dotnet test --no-build --verbosity normal DockerAPIDemoIntegrationTests.csproj
+      run: dotnet test --no-build --verbosity normal DockerAPIDemo.sln
