@@ -1,5 +1,6 @@
 version: '3.7'
 
+name: dockerapidemogroup
 services:
   dockerapidemo:
     image: ${DOCKER_REGISTRY-}dockerapidemo
